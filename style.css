@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+/* -----------------------------------------------------------------*/
+.header {
+    /*background: rgb(51, 51, 51, .8);*/
+    background: rgba(32, 38, 112, .8);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item {
+    line-height: 3;
+}
+
+.main-menu__link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.main-menu__link:hover {
+    background: white;
+    color: rgb(51, 51, 51);
+}
+
+.main-menu__link:active {
+    transform: scale(.5);
+}
+
+.nav-left {
+    width: 40%;
+    display: flex;
+    text-align: left;
+}
+
+.nav-right {
+    width: 40%;
+}
+
+/* -----------------------------------------------*/
+.section-1 {
+    width: 100%;
+    height: 580px;
+    background: lightgray;
+    padding-top: 140px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.section-left {
+    /*border: 1px solid red;*/
+    width: 40%;
+    height: 300px;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.botones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+
+    padding: .2em .5em .2em .5em;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background: white;
+    color: rgba(32, 38, 112, 1);
+}
+
+.section-right {
+    width: 40%;
+    height: 300px;
+    background-image: url(red.gif);
+    background-size: 100% 300px;
+}
+
+.title::first-letter{
+    font-size: 1.4em;
+    color: rgba(32, 38, 112, 1);
+}
+
+.presentacion::first-letter{
+    font-size: 1.4em;
+    color: rgba(32, 38, 112, 1);
+}
+
+.span {
+    font-size: 1.2em;
+    color: rgba(32, 38, 112, 1);
+}
+
+/* ----------------------------------------------------*/
+
