@@ -4,7 +4,7 @@ html {
 
 body {
     background: lightgray;
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* NAVEGADOR */
@@ -75,8 +75,8 @@ body {
 }
 
 .contenedor {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 90vh;
     margin: auto;
     background: lightgrey;
     box-shadow: 1px 7px 25px rgba(0, 0, 0, .7);
@@ -118,6 +118,37 @@ body {
 
 .contenido {
     padding: 10px;
+}
+
+.parrafos {
+    text-align: justify;
+}
+
+.parrafos span {
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.subtitulo {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.codigo {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: rgb(182, 182, 182);
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
 
 #btn-modal, #btn-modalDos, #btn-modalTres, #btn-modalCuatro {
